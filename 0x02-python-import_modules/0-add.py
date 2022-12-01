@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Program that imports a funtion def add(a, b)"""
 if __name__ == "__main__":
     from add_0 import add
     a = 1
