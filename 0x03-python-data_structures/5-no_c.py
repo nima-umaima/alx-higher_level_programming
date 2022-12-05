@@ -5,5 +5,5 @@ def no_c(my_string):
     for ch in my_list:
         if ch == 'c' or ch == 'C':
             del my_list[i]
-            i = i + 1
-            return ''.join(my_list)
+        i = i + 1
+    return ''.join(my_list)
