@@ -1,3 +1,3 @@
 #!/bin/bash
-# Take in URL, add header variable, displays "Hello Holberton School!"; Usage: ./4-header.sh 0.0.0.0:5000/route_5 ; echo ""
-curl -s -H "X-HolbertonSchool-User-Id":98 "$1"
+# takes a URL (uniform resource locator) as an argument, sends a GET request, and displays the body of the response header variable X-School-User-Id must be sent with the value 98
+curl -sH "X-School-User-Id:98" "$1"
